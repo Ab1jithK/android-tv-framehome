@@ -29,3 +29,4 @@ NOTE: run 1 (00:09) was lost because adb reboot happened before package state wa
 NOTE: com.google.android.tvrecommendations and com.google.android.apps.mediashell are force re-enabled at every boot by com.at.factory.factorymanager (Toshiba firmware).
 2026-10-23 00:41:50  INSTALLED  local.framehome 1.0 (Frame Home, CleanFrame-style launcher built from D:\Dev\TV\framehome)
 2026-10-23 00:41:50  HOME       default home -> local.framehome/.HomeActivity (FLauncher kept installed as fallback)
+2026-10-23 01:01:17  REMOVED    me.efesser.flauncher (no longer needed; Frame Home is the home screen)

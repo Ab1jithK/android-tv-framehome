@@ -1,4 +1,4 @@
-# Android TV cleanup + Frame Home
+﻿# Android TV cleanup + Frame Home
 
 Make a slow, ad-filled Android TV quick and calm again: switch off the bloatware over adb, then
 replace the stock home screen with **Frame Home**, a small native launcher modelled on
@@ -10,7 +10,7 @@ Frame Home shows a full-screen photo, a clock, your apps as a large type list, a
 Inputs, Wallpaper, All apps and Settings. There are no ads, recommendation rows or sponsored tiles.
 
 > **Tested on one TV only:** a Toshiba Android TV running Android 11 (MediaTek chipset, 1 GB RAM,
-> 1280×720 UI). Other TVs may behave differently. Everything here can be undone, but read
+> 1280Ã—720 UI). Other TVs may behave differently. Everything here can be undone, but read
 > [Risks and undo](#risks-and-undo) before you start.
 
 ## Contents
@@ -45,7 +45,7 @@ Inputs, Wallpaper, All apps and Settings. There are no ads, recommendation rows 
   `adb` command you can run on macOS or Linux.
 - adb: `winget install Google.PlatformTools` (macOS: `brew install android-platform-tools`,
   Linux: `sudo apt install adb`).
-- On the TV, Developer options turned on (Settings → Device Preferences → About → press **Build** 7
+- On the TV, Developer options turned on (Settings â†’ Device Preferences â†’ About â†’ press **Build** 7
   times), then **USB debugging** turned on.
 
 ### 1. Connect
@@ -55,7 +55,7 @@ adb connect <tv-ip>:5555     # then press "Allow" on the TV and tick "Always all
 adb devices                  # should list the TV as "device"
 ```
 
-If you don't know the TV's IP address, check Settings → Network on the TV, or scan your subnet for
+If you don't know the TV's IP address, check Settings â†’ Network on the TV, or scan your subnet for
 port 5555.
 
 ### 2. Audit before you change anything
@@ -214,9 +214,9 @@ SonyLIV comes out as just the word "SONY". To use a proper mark for an app, add 
 
 | File | Role |
 | --- | --- |
-| `Stage.java` | CleanFrame lays out on a 1920×1080 stage. This maps stage pixels to the TV's real pixels, and loads the Manrope font. |
+| `Stage.java` | CleanFrame lays out on a 1920Ã—1080 stage. This maps stage pixels to the TV's real pixels, and loads the Manrope font. |
 | `HomeActivity.java` | The home screen: photo, clock, app list, utility icons and edit dialog |
-| `ListPane.java` | The big-type list. Rows are 62% opaque, and the focused row is full and scaled to 1.05×. Edges are faded with a gradient mask, and the list scrolls only when it overflows. |
+| `ListPane.java` | The big-type list. Rows are 62% opaque, and the focused row is full and scaled to 1.05Ã—. Edges are faded with a gradient mask, and the list scrolls only when it overflows. |
 | `ShadeView.java` | CleanFrame's photo treatment: a left-to-right dim, a top shade, a column shade and a bottom scrim |
 | `Wallpapers.java` | Decodes one wallpaper at screen width in RGB_565 (about 2 MB) and caches it |
 | `Marks.java` | Bundled marks, or white marks extracted from launcher icons |
@@ -266,7 +266,7 @@ powershell -ExecutionPolicy Bypass -File undo_all.ps1
 ```
 
 This re-enables every disabled app, restores the animation scales, makes the stock launcher the
-home screen again, removes Frame Home and FLauncher, and reboots.
+home screen again, removes Frame Home, and reboots.
 
 ## Credits and licences
 

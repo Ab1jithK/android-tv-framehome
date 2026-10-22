@@ -24,5 +24,4 @@ $dev = "192.168.1.5:5555"
 & $adb -s $dev shell pm enable com.google.android.apps.mediashell
 & $adb -s $dev shell cmd package set-home-activity com.google.android.tvlauncher/.MainActivity
 & $adb -s $dev uninstall local.framehome
-& $adb -s $dev uninstall me.efesser.flauncher
 & $adb -s $dev reboot
