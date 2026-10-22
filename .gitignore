@@ -1,0 +1,8 @@
+# Build output — publish APKs as GitHub Releases instead
+framehome/build/
+*.apk
+*.idsig
+
+# Signing key: never commit it. Anyone holding it can ship updates that install over yours.
+*.jks
+*.keystore

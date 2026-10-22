@@ -1,0 +1,26 @@
+﻿Android TV changes - 192.168.1.5:5555 (Toshiba, Android 11)
+2026-10-23 00:09:00  INSTALLED  me.efesser.flauncher 0.18.0 (SHA256 376FC528C880CDF7C7C04B2D3708C69F911144498218BABB6300808B772AF32E)
+2026-10-23 00:09:01  SETTING    global transition_animation_scale : 1.0 -> 0
+2026-10-23 00:09:01  SETTING    global animator_duration_scale : 0.6 -> 0
+2026-10-23 00:09:01  SETTING    global window_animation_scale : 1.0 -> 0
+2026-10-23 00:09:01  HOME       default home -> me.efesser.flauncher/.MainActivity (was com.google.android.tvlauncher/.MainActivity)
+2026-10-23 00:09:01  DISABLE    com.google.android.tvlauncher  => Package com.google.android.tvlauncher new state: disabled-user
+2026-10-23 00:09:01  DISABLE    com.google.android.tvrecommendations  => Package com.google.android.tvrecommendations new state: disabled-user
+2026-10-23 00:09:01  DISABLE    android.autoinstalls.config.hisense.hayward  => Package android.autoinstalls.config.hisense.hayward new state: disabled-user
+2026-10-23 00:09:01  DISABLE    com.google.android.play.games  => Package com.google.android.play.games new state: disabled-user
+2026-10-23 00:09:01  DISABLE    com.google.android.feedback  => Package com.google.android.feedback new state: disabled-user
+2026-10-23 00:09:01  DISABLE    com.google.android.syncadapters.calendar  => Package com.google.android.syncadapters.calendar new state: disabled-user
+2026-10-23 00:09:02  DISABLE    com.android.printspooler  => Package com.android.printspooler new state: disabled-user
+2026-10-23 00:09:02  DISABLE    com.android.htmlviewer  => Package com.android.htmlviewer new state: disabled-user
+2026-10-23 00:09:02  DISABLE    fusion.android.tv.demo  => Package fusion.android.tv.demo new state: disabled-user
+2026-10-23 00:09:02  DISABLE    com.cvte.tv.fac.aging  => Package com.cvte.tv.fac.aging new state: disabled-user
+2026-10-23 00:09:02  DISABLE    com.jio.media.stb.ondemand  => Package com.jio.media.stb.ondemand new state: disabled-user
+2026-10-23 00:09:02  DISABLE    com.google.android.youtube.tvmusic  => Package com.google.android.youtube.tvmusic new state: disabled-user
+2026-10-23 00:09:02  DISABLE    com.sand.aircasttv  => Package com.sand.aircasttv new state: disabled-user
+2026-10-23 00:09:03  DISABLE    com.google.android.videos  => Package com.google.android.videos new state: disabled-user
+2026-10-23 00:09:03  DISABLE    com.google.android.tv  => Package com.google.android.tv new state: disabled-user
+2026-10-23 00:09:03  DISABLE    com.mediatek.wwtv.mediaplayer  => Package com.mediatek.wwtv.mediaplayer new state: disabled-user
+2026-10-23 00:09:03  DISABLE    com.google.android.apps.mediashell  => Package com.google.android.apps.mediashell new state: disabled-user
+
+UNDO EVERYTHING:  powershell -ExecutionPolicy Bypass -File D:\Dev\TV\undo_all.ps1
+2026-10-23 00:09:03  DONE

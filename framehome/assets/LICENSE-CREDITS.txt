@@ -1,0 +1,4 @@
+Frame Home - UI modelled on CleanFrame by Nathan Clark (MIT), https://github.com/nthnclrk/CleanFrame
+Wallpapers (Unsplash License, via CleanFrame): Misty coast - Ganapathy Kumar; Quiet cove - Joshua Wordel;
+Forest mist - Dejan Zakic; Mountain valley - Aniket Deole; Blue peaks - John Rodenn Castillo; Desert stars - Mohammad Alizade.
+Font: Manrope (SIL OFL 1.1). Brand marks: Simple Icons (CC0); trademarks belong to their owners.

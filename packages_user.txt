@@ -1,0 +1,7 @@
+﻿package:com.sonyliv
+package:in.startv.hotstar
+package:com.google.android.tv
+package:com.google.android.videos
+package:org.videolan.vlc
+package:com.jio.media.stb.ondemand
+package:com.sand.aircasttv
